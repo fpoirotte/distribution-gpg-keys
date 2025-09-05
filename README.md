@@ -4,25 +4,27 @@ GPG keys used by various Linux distributions to sign packages.
 
 ## Keys for
 
- * Anolis OS
+ * AlmaLinux
  * Amazon Linux
- * Alma Linux
+ * Anolis OS
  * Azure Linux/CBL-Mariner
  * CentOS
  * Circle Linux
  * EPEL
  * EuroLinux
  * Fedora
+ * FreeBSD
  * Mageia
  * openEuler
  * OpenMandriva
  * OpenSuse
+ * OpenWRT
  * Oracle Linux
  * Qubes
+ * Red Hat
  * Rocky Linux
  * RosaLinux
  * RPM Fusion
- * Red Hat
  * Navy Linux
  * Scientific Linux
  * United RPMs

@@ -1,5 +1,5 @@
 Name:		distribution-gpg-keys
-Version:	1.104
+Version:	1.114
 Release:	1%{?dist}
 Summary:	GPG keys of various Linux distributions
 
@@ -53,6 +53,51 @@ cp -a keys/* %{buildroot}%{_datadir}/%{name}/
 %{_datadir}/%{name}/copr
 
 %changelog
+* Fri Aug 08 2025 Pavel Raiskup <praiskup@redhat.com> 1.114-1
+- Add Fedora 45 key
+
+* Tue Jun 17 2025 Pavel Raiskup <praiskup@redhat.com> 1.113-1
+- Add Rocky Linux 10 keys
+
+* Thu Jun 05 2025 Neal Gompa <neal@gompa.dev> 1.112-1
+- Add FreeBSD keys
+- Fix AlmaLinux name and alphabetical ordering of distros
+- Add AlmaLinux EPEL AltArch Key
+
+* Fri May 16 2025 Miroslav Suchý <msuchy@redhat.com> 1.111-1
+- add link to sources of OpenWRT
+- update copr keys
+- Add OpenWrt keys
+- Add RHEL 10 keys
+
+* Fri Feb 14 2025 Pavel Raiskup <praiskup@redhat.com> 1.110-1
+- Add keys for el-10 rpmfusion-free and nonfree
+- Add symlinks to rpmfusion 42 and 43
+- Navy Linux GPG key Update
+
+* Thu Feb 06 2025 Miroslav Suchý <msuchy@redhat.com> 1.109-1
+- update copr keys
+- fedora: Update rawhide symlink
+- Update keys for Azure Linux and Kylin
+
+* Fri Jan 31 2025 Miroslav Suchý <msuchy@redhat.com> 1.108-1
+- update copr keys
+- alma: Add AlmaLinux 10 key
+- add Remi 2025 key
+
+* Wed Jan 15 2025 Miroslav Suchý <msuchy@redhat.com> 1.107-1
+- Add Fedora 44 key
+- Update Mageia gpg key
+
+* Mon Dec 02 2024 Miroslav Suchý <msuchy@redhat.com> 1.106-1
+- update copr keys
+- add link for remi/EL-10 key
+
+* Mon Aug 12 2024 Miroslav Suchý <msuchy@redhat.com> 1.105-1
+- update copr keys
+- add fedora 43 keys and change rawhide symlink
+- Refresh GPG keys for Dell
+
 * Wed Jun 12 2024 Miroslav Suchý <msuchy@redhat.com> 1.104-1
 - update copr keys
 - Add RPM-GPG-KEY-CentOS-Official-SHA256
